@@ -13,5 +13,5 @@ class Neuron():
 weights=np.array([0,1])
 bias=4
 n=Neuron(weights,bias)
-x=np.array([2,3])
+x=np.array([1,3])
 print(n.feedforward(x))
